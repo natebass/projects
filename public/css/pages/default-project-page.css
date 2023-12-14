@@ -16,13 +16,13 @@ Application fonts.
 /*
 Opensac.org page layout
  */
+.default-project-page-container {
+  padding: 16px 16px;
+}
+
 .default-documentation-item-image {
   max-width: 200px;
   max-height: 200px;
-}
-
-.page-title {
-  padding-top: 16px;
 }
 
 .project-notes {
@@ -33,7 +33,6 @@ Opensac.org page layout
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  padding-top: 16px;
 }
 
 .documentation-item {
