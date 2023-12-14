@@ -16,6 +16,11 @@ Application fonts.
 /*
 Opensac.org page layout
  */
+.default-documentation-item-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 .page-title {
   padding-top: 16px;
 }
